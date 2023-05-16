@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Estilos dos destaques */
+  #destaques {
+    padding: 20px;
+  }
+  
+  #destaques h2 {
+    margin-bottom: 10px;
+  }
+  
+  .produto {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .produto img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .produto h3 {
+    margin: 10px 0;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
